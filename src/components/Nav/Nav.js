@@ -34,13 +34,13 @@ const Nav = (props) => {
             <Link className="nav-link" to="/info">
               Info Page
             </Link>
+            <Link className="nav-link" to="/user">
+              User Page
+            </Link>
             <LogOutButton className="nav-link"/>
           </>
         )}
         {/* Always show this link since the about page is not protected */}
-        <Link className="nav-link" to="/about">
-          About
-        </Link>
       </div>
     </div>
   );
