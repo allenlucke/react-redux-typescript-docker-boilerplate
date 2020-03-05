@@ -6,5 +6,10 @@
 CREATE TABLE "user" (
     "id" SERIAL PRIMARY KEY,
     "username" VARCHAR (80) UNIQUE NOT NULL,
-    "password" VARCHAR (1000) NOT NULL
+    "password" VARCHAR (1000) NOT NULL,
+    "firstName" VARCHAR (30),
+    "lastName" VARCHAR (30),
+    "securityLevel" int default 1,
+    "email" VARCHAR (80),
+    "role" VARCHAR (80)
 );

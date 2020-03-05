@@ -1,4 +1,4 @@
 INSERT INTO "user"
-    ("firstName", "lastName", "username", "password", "securityLevel", "phoneNumber", "email", "role")
+    ("firstName", "lastName", "username", "password", "securityLevel", "email", "role")
 VALUES
-    ( 'Test', 'Admin', 'TestAdmin', '$2b$10$BoiqkRF6PW0Csei0ve6zT.LHuZSbolktRo4pz6sQwhQE/1AfxUb8G', 5, 1111111111, 'email2', 'Developer');
+    ( 'Allen', 'Lucke', 'allenlucke', '$2b$10$4hdodp7k6YIQzaiX6.Oj.OAl8mwr30XCejxkpwgfOYA6N34HS9Sy.', 20, 'allenlucke@gmail.com', 'Developer');
