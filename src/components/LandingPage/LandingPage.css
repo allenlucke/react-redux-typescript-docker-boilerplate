@@ -12,6 +12,7 @@ Button
 
 .btn {
     background-color: #00acb0;
+    background-color: #f0ad43;
     border-radius: 4px;
     color: #f8f8f8;
     display: inline-block;
@@ -24,15 +25,18 @@ Button
 .btn_sizeMin {
     min-height: 50px;
     min-width: 100px;
+    background-color: #f0ad43;
 }
 
 .btn_sizeFull {
     display: block;
     width: 100%;
+    background-color: #f0ad43;
 }
 
 .btn:hover {
-    background-color: #008183;
+    /* background-color: #008183; */
+    background-color: #f0ad43;
     text-decoration: none;
 }
 

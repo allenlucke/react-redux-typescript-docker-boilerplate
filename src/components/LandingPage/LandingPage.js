@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import mapStoreToProps from '../../redux/mapStoreToProps';
 
+import Button from '@material-ui/core/Button';
 import './LandingPage.css';
+
+
 
 class LandingPage extends Component {
     state = {
@@ -21,12 +24,14 @@ class LandingPage extends Component {
         let loginOrLogout = (
             <div className="grid-col grid-col_4">
                 <h3>Already a Member?</h3>
-                <button
+                <Button
+                    variant="contained"
+                    color="primary"
                     className="btn btn_sizeFull"
                     onClick={this.onLogin}
                 >
                     Login
-                </button>
+                </Button>
             </div>
         );
 
@@ -34,12 +39,14 @@ class LandingPage extends Component {
             loginOrLogout = (
                 <div className="grid-col grid-col_4">
                     <h3>All done?</h3>
-                    <button
+                    <Button
+                        variant="contained"
+                        color="primary"
                         className="btn btn_sizeFull"
                         onClick={this.onLogout}
                     >
                         Logout
-                    </button>
+                    </Button>
                 </div>
             );
         }
