@@ -12,7 +12,7 @@ const Nav = (props) => {
   };
 
   if (props.store.user.id != null) {
-    loginLinkData.path = '/admin';
+    loginLinkData.path = '/registration';
     loginLinkData.text = 'Home';
   }
 
