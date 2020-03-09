@@ -100,7 +100,7 @@ class RegisterPage extends Component {
             variant="contained"
             color="primary"
             // className="link-button"
-            style={{marginTop: '130px', marginRight: '55px'}}
+            style={{marginTop: '130px', marginLeft: '20px'}}
             onClick={() => {this.props.dispatch({type: 'SET_TO_LOGIN_MODE'})}}
           >
             Login
